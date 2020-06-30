@@ -18,18 +18,19 @@ h2 {
 p {
   color: dimgray;
   letter-spacing: 1.5px;
-  line-height: 35px;
+  line-height: 30px;
   font-weight: 500;
   margin-bottom: 43px;
 }
 .half-part {
-  width: 40%;
+  width: 35%;
   float: left;
-  margin-left: 5%;
-  padding: 55px 30px;
+  margin-left: 5.5%;
+  padding: 55px 45px;
 }
 img {
   width: 100%;
+  margin-top: -110px;
 }
 .button {
   text-decoration: none;
@@ -45,5 +46,31 @@ img {
 }
 section {
   height: 600px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.Biography {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#work-title {
+  text-align: center;
+  margin-bottom: 220px;
+}
+.work {
+  margin-left: 140px;
+}
+.work-img {
+  width: 28%;
+  float: left;
+  margin: 10px;
+}
+
+.latest-work {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
